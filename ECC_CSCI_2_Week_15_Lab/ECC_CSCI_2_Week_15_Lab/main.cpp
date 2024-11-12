@@ -118,7 +118,8 @@ public:
         } //end while.
         return "part is not found."; //?????????????
     } //close searchNode function.
-    
+
+    //function 4:
     void displayPreOrder(TreeNode* nodeptr) const //root-left-right.
     {
         if(nodeptr)
